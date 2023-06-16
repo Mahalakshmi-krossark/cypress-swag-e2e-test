@@ -3,7 +3,7 @@
 import { LoginAction } from "../../actions/login_action";
 import {CheckoutPersonalInformation} from "../../actions/checkout_personal_information";
 
-describe("shopping cart tests", () => {
+describe("checkout page tests", () => {
     const login = new LoginAction();
     const checkoutPersonalInformation = new CheckoutPersonalInformation();
   

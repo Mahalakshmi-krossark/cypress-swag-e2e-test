@@ -2,7 +2,7 @@
 
 import { LoginAction } from "../../actions/login_action";
 
-describe("shopping cart tests", () => {
+describe("shopping cart page tests", () => {
   const login = new LoginAction();
 
   beforeEach(() => {
