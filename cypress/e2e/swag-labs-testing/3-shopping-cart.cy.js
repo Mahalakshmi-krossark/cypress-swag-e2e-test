@@ -9,7 +9,7 @@ describe("shopping cart tests", () => {
     login.enterCredentials("standard_user", "secret_sauce");
   });
 
-  it("when adding single item in the cart, it should show the name of the item in the cart", () => {
+  it("when user adds a item into the cart, it should show the corresponding product information in the cart page properly", () => {
     cy.contains(".inventory_item", "Sauce Labs Backpack").contains("Add to cart").click();
     cy.get(".shopping_cart_badge").click();
 
@@ -19,7 +19,7 @@ describe("shopping cart tests", () => {
       .should("contain.text", "Sauce Labs Backpack");
   });
 
-  it("when adding item into the cart, it should show the product information like description, quantity & price in shopping cart page", () => {
+  it("when user adds item into the cart, it should show the product information like description, quantity & price in shopping cart page", () => {
     cy.contains(".inventory_item", "Sauce Labs Backpack").contains("Add to cart").click();
     cy.get(".shopping_cart_badge").click();
     const cartItem = cy.contains(".cart_item", "Sauce Labs Backpack");
@@ -28,7 +28,7 @@ describe("shopping cart tests", () => {
     cartItem.get(".cart_quantity").should("contain.text", "1");
   });
 
-  it("when removing items from the cart, it should be removed from the cart list", () => {
+  it("when user removes items from the cart, it should be removed from the cart list", () => {
     cy.contains(".inventory_item", "Sauce Labs Backpack").contains("Add to cart").click();
     cy.contains(".inventory_item", "Sauce Labs Bolt T-Shirt").contains("Add to cart").click();
     cy.get(".shopping_cart_badge").click();
