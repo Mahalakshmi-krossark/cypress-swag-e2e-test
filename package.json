@@ -1,0 +1,24 @@
+{
+  "name": "swag-labs-cypress-automation-testing",
+  "version": "1.0.0",
+  "description": "Cypress automation testing for swag labs website",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [
+    "cypress-testing",
+    "Automation",
+    "testing",
+    "end",
+    "to",
+    "end",
+    "testing"
+  ],
+  "author": "Mahalakshmi (Krossark Team)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
