@@ -1,4 +1,3 @@
-# cypress-swag-e2e-test
 # Swag Labs Cypress Automation Testing
 
 ### Running Locally
