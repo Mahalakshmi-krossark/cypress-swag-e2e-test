@@ -8,7 +8,7 @@ describe("checkout page tests", () => {
     const checkoutPersonalInformation = new CheckoutPersonalInformation();
   
     beforeEach(() => {
-      // Login with vali credentials and adding 2 items to cart here.
+      // Login with valid credentials and adding 2 items to cart here.
          login.enterCredentials("standard_user", "secret_sauce");
          cy.contains(".inventory_item", "Sauce Labs Backpack").contains("Add to cart").click();
          cy.contains(".inventory_item", "Sauce Labs Bolt T-Shirt").contains("Add to cart").click();

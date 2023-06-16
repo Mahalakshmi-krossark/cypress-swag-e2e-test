@@ -25,14 +25,14 @@ Note: If you want to run all the tests at once, you can run the following comman
 
 ### Test Cases Covered
 
-login page tests
+`login page tests`
     - when user enters a valid username and password, it should login successfully 
     - when user enters a incorrect username, it should display error message 
     - when user enters a incorrect password, it should display error message 
     - when user logins with locked account credentials, it should display error message
 
 
- inventory page tests
+ `inventory page tests`
     - after user successful login, all six products should be displayed 
 
     - check all products should have an Add To Cart button 
@@ -44,7 +44,7 @@ login page tests
     - when user adds two items to the cart and then remove one item from the cart, it should updte the badge count accordingly 
 
 
-  shopping cart page tests
+  `shopping cart page tests`
     - when user adds a item into the cart, it should show the corresponding product information in the cart page properly 
 
     - when user adds item into the cart, it should show the product information like description, quantity & price in shopping cart page
@@ -54,7 +54,7 @@ login page tests
     - when adding multiple items into a shopping cart, it should show the details of the each item in the cart
 
 
-  checkout page tests
+  `checkout page tests`
     - user should receive error if user doesn't enter all neccessary customer information during checkout 
 
     - user added items and customer information should be displayed in the overview page after user checkout
