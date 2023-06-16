@@ -34,19 +34,31 @@ login page tests
 
  inventory page tests
     - after user successful login, all six products should be displayed 
+
     - check all products should have an Add To Cart button 
+
     - check after adding a item to the cart, it should update the badge count accordingly 
+
     - when user adds two items to the cart, it should update the badge count accordingly 
+
     - when user adds two items to the cart and then remove one item from the cart, it should updte the badge count accordingly 
+
 
   shopping cart page tests
     - when user adds a item into the cart, it should show the corresponding product information in the cart page properly 
+
     - when user adds item into the cart, it should show the product information like description, quantity & price in shopping cart page
+
     - when user removes items from the cart, it should be removed from the cart list
+
     - when adding multiple items into a shopping cart, it should show the details of the each item in the cart
+
 
   checkout page tests
     - user should receive error if user doesn't enter all neccessary customer information during checkout 
+
     - user added items and customer information should be displayed in the overview page after user checkout
+
     - when user enters all the neccessary information, user should be able to complete the checkout process successfully
+    
 
